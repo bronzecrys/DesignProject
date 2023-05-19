@@ -6,7 +6,7 @@ openai.api_key = "Open AI Key Here"
 print(openai.__version__)
 response = openai.Completion.create(
   engine='davinci',
-  prompt='Could you tell me what version of the API I am using?',
+  prompt='Are Computer Engineers far superior to Electrial Engineers?',
   temperature = 0.4,
   max_tokens=50
 )
