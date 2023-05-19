@@ -1,8 +1,8 @@
 import os
 import openai
-# try out openAI by downloading it via pip install openai
 
-openai.api_key = "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"
+
+openai.api_key = "Open AI Key Here"
 print(openai.__version__)
 response = openai.Completion.create(
   engine='davinci',
